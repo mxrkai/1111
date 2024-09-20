@@ -33,12 +33,11 @@ export interface SettingItemType<T = string> {
 }
 
 export const modelList = [
-  { label: 'gpt-3.5-turbo', value: 'gpt-3.5-turbo', token: 16385 },
-  { label: 'gpt-4o', value: 'gpt-4o', token: 128000 },
+  { label: 'gemma2-9b-it', value: 'gemma2-9b-it', token: 16385 },
   { label: 'gpt-4o-mini', value: 'gpt-4o-mini', token: 128000 },
-  { label: 'gpt-4', value: 'gpt-4', token: 8192 },
-  { label: 'gpt-4-turbo', value: 'gpt-4-turbo', token: 128000 },
-  { label: 'gpt-4-32k', value: 'gpt-4-32k', token: 32768 },
+  { label: 'gpt-4o', value: 'gpt-4o', token: 128000 },
+  { label: 'llama3-groq-70b-8192-tool-use-preview', value: 'llama3-groq-70b-8192-tool-use-preview', token: 16385 },
+  { label: 'mixtral-8x7b-32768', value: 'mixtral-8x7b-32768', token: 16385 },
 ];
 
 const asrLanguageList = Object.entries(supportLanguages).map(([label, value]) => ({ label, value }));
